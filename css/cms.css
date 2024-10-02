@@ -1,0 +1,138 @@
+*{
+    z-index: 1;
+    padding:0;
+}
+body{
+    padding:0;
+    margin:0;
+    width:auto;
+    background:#F5F5F5;
+
+}
+header{
+    display:block;
+
+}
+#logoCMS{
+    display:block;
+    z-index: 2;
+    margin-top:-230px;
+    margin-bottom:-125px;
+    width:825px;
+    height:300px;
+    background: url(../images/logoCMS.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+#pagina
+{   
+    display:block;
+    width: 1230px;
+    padding:4em;
+    background: #ccc;
+    color: #191919;
+    position: relative;
+    background: #FFF;
+    border:1px solid #DDD;
+    box-shadow: 0px 0px 50px 1px rgba(0,0,0,0.1);
+    min-height: 145px;
+    margin-bottom:0;
+}
+#footer{
+    width:1200px;
+    position:relative;
+    background:#EEE;
+    padding: 6em 5em;
+    font-size: 12pt;
+    letter-spacing: 1.2pt;
+    text-align: center;
+    color: #888;
+    margin:auto auto;
+}
+#footer a{
+    text-decoration:none;
+    color:#555;
+}
+#footer a:hover{
+    color:#55E;
+}
+#footer a:visited{
+    color:#555;
+}
+.container{
+    display:block;
+    position:static;
+    margin: auto auto;
+    margin-left: auto;
+    width:auto;
+    margin-bottom:100px;
+}
+
+#bar {  
+    width:1200px;
+    height:75px;
+    text-align:center;
+    border:1px solid #7BF;border-top:0;
+    position:absolute;
+    display:block; 
+    position:inherit;
+    overflow:hidden;
+    background:#D5E8FF;
+    padding: 0em 5em;
+}
+
+#cmsmenu ul
+{   
+
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+    list-style: none;
+    line-height: normal;
+    text-align: center;
+}
+>#cmsmenu{
+    z-index:1;
+}
+#cmsmenu li
+{
+    display: inline-block;
+}
+
+#cmsmenu a
+{   
+    cursor: pointer; 
+    cursor: hand;
+    border:none;
+    background: #D5E8FF;
+    display: block;
+    padding: 0em 2.5em;
+    padding-bottom:0px;
+    line-height: 80px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 700;
+    color: #0546E5;
+    margin:-3px;
+    z-index:0;
+}
+
+
+
+#cmsmenu .atual a, #cmsmenu .atual a:hover
+{
+    background: #346FE5;
+    color: #FFF;
+}
+
+
+#cmsmenu a:hover
+{
+    background:#36A5F4;
+    text-decoration: none;
+    color: #f4f4f4;
+    -moz-box-sizing: border-box;
+}
+
+#segundos{margin-left:525px;}

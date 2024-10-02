@@ -1,0 +1,39 @@
+-- --------------------------------------------------------
+-- Servidor:                     127.0.0.1
+-- Versão do servidor:           5.5.32 - MySQL Community Server (GPL)
+-- OS do Servidor:               Win32
+-- HeidiSQL Versão:              8.0.0.4396
+-- --------------------------------------------------------
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET NAMES utf8 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+-- Copiando dados para a tabela pizzaria.produto: ~21 rows (aproximadamente)
+/*!40000 ALTER TABLE `produto` DISABLE KEYS */;
+INSERT INTO `produto` (`codProduto`, `nomeProduto`, `descricaoProduto`, `marcaProduto`, `categoriaProduto`, `precoPequeno`, `precoNormal`, `precoGrande`, `estoque`, `cardapio`, `site`, `promocao`) VALUES
+	(1, 'Pizza de Muzzarela', 'Muzzarela e Molho de Tomate', '', 'Pizza Tradicional', 17.50, 22.50, 27.00, 0, 1, 1, 0),
+	(2, 'Refrigerante de Cola 600ml', 'Refrigerante que da para beber', '', 'Bebida', 0.00, 3.00, 0.00, 0, 1, 1, 0),
+	(3, 'Pizza de Aliche', 'Muzzarela, Filés de anchovas, Rodelas de Tomate, Provolone', '', 'Pizza Tradicional', 18.00, 23.00, 30.00, 0, 1, 1, 0),
+	(4, 'Pizza à Moda da Casa', 'Muzzarela, Presunto, Palmito, Catupiry e Parmesão', '', 'Pizza Especial', 20.00, 25.00, 30.00, 0, 1, 1, 1),
+	(5, 'Pizza de Atum', 'Muzzarela, Atum e Molho de Tomate', '', 'Pizza Tradicional', 18.00, 23.00, 30.00, 0, 1, 1, 0),
+	(6, 'Pizza de Bacon', 'Muzzarela e Bacon', '', 'Pizza Tradicional', 18.00, 23.00, 30.00, 0, 1, 1, 0),
+	(7, 'Pizza Bela Itália', 'Muzzarela, Escarola, Palmito e Catupiry', '', 'Pizza Tradicional', 19.00, 24.00, 30.00, 0, 1, 1, 0),
+	(8, 'Pizza de Brócolis com Catupiry', 'Muzzarela, Brócolis, Parmesão e Catupiry', '', 'Pizza Tradicional', 19.00, 24.00, 30.00, 0, 1, 1, 0),
+	(9, 'Pizza de Calabresa', 'Muzzarela, Calabresa e Cebola', '', 'Pizza Tradicional', 19.00, 24.00, 30.00, 0, 1, 1, 0),
+	(10, 'Pizza de Camarão', 'Muzzarela, Camarão e Catupiry', '', 'Pizza Tradicional', 19.00, 24.00, 30.00, 0, 1, 1, 0),
+	(11, 'Pizza de Catupiry', 'Muzzarela e Catupiry', '', 'Pizza Tradicional', 17.50, 22.50, 27.00, 0, 1, 1, 0),
+	(12, 'Pizza de 4 Queijos', 'Muzarela, Provolone, Parmesão e Catupiry', '', 'Pizza Tradicional', 19.00, 24.00, 30.00, 0, 1, 1, 0),
+	(13, 'Pizza de 5 Queijos', 'Muzzarela, Provolone, Catupiry, Parmesão e Gorgonzola', '', 'Pizza Especial', 22.00, 27.00, 33.00, 0, 1, 1, 0),
+	(14, 'Suco de Laranja', 'Com Água ou Leite', '', 'Bebida', 0.00, 4.00, 0.00, 0, 1, 1, 0),
+	(15, 'Porção de Salame', 'Salame e Azeitona', '', 'Porção', 10.00, 12.50, 15.00, 0, 1, 1, 0),
+	(16, 'Porção de Churrasquinho', 'Filé Mignon', '', 'Porção', 13.00, 15.50, 18.00, 0, 1, 1, 0),
+	(17, 'Porção de Frios', 'Queijo, Presunto e Azeitona', '', 'Porção', 12.00, 14.50, 17.00, 0, 1, 1, 0),
+	(18, 'Porção Mista', 'Salame, Azeitona, Ovo de Codorna, Queijo e Presunto', '', 'Porção', 14.00, 16.50, 18.50, 0, 1, 1, 0),
+	(20, 'Pizza de Banana', 'Banana e Canela', '', 'Pizza Doce', 15.00, 17.00, 21.00, 0, 1, 1, 0),
+	(21, 'Pizza de Banana com Chocolate', 'Banana, Chocolate e Canela', '', 'Pizza Doce', 17.00, 19.00, 23.00, 0, 1, 1, 0),
+	(22, 'Pizza de Frango com Catupiry', 'Frango e Catupiry', '', 'Pizza Meio A Meio', 30.00, 45.00, 64.00, 0, 1, 1, 0);
+/*!40000 ALTER TABLE `produto` ENABLE KEYS */;
+/*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
+/*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

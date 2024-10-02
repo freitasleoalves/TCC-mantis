@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/T:/wamp/www/pizzamantis/header.php</file>
+            <file>file:/T:/wamp/www/pizzamantis/delivery.php</file>
+            <file>file:/T:/wamp/www/pizzamantis/add.php</file>
+            <file>file:/T:/wamp/www/pizzamantis/classes/Produto.php</file>
+            <file>file:/T:/wamp/www/pizzamantis/classes/Usuario.php</file>
+            <file>file:/T:/wamp/www/pizzamantis/action/finalizarCarrinho.php</file>
+            <file>file:/T:/wamp/www/pizzamantis/classes/Pedido.php</file>
+            <file>file:/T:/wamp/www/pizzamantis/action/addItem.php</file>
+            <file>file:/T:/wamp/www/pizzamantis/css/form.css</file>
+            <file>file:/T:/wamp/www/pizzamantis/classes/Carrinho.php</file>
+            <file>file:/T:/wamp/www/pizzamantis/action/login.php</file>
+        </group>
+    </open-files>
+</project-private>

@@ -1,0 +1,30 @@
+.white-popup {
+    position: relative;
+    display:block;
+    background: #FFF;
+    padding: 20px;
+    width: auto;
+    max-width: 500px;
+    margin: 20px auto;
+    border-radius: 10px;
+    border: 1px solid #AAA;
+    box-shadow: 0px 0px 100px #777, inset 0px 0px 2px #777;
+    z-index:2500;
+}
+.white-popup .msg-box{
+    display:block;
+    height: 100px;
+
+}
+.white-popup .msg-titulo,.white-popup .msg-mensagem{
+    text-align:center;
+}
+.white-popup .msg-titulo{
+    font-weight:bold;
+    font-size:12pt;
+}
+.white-popup .msg-mensagem{
+    font-weight:normal;
+    font-size:10pt;
+    padding:5px;
+}
